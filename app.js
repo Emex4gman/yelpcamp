@@ -17,7 +17,7 @@ var campgroundRoutes = require("./routes/campgrounds");
 var indexRoutes      = require("./routes/index");
 
 
-console.log("this is the process env: " + process.env.YELPDATABASEURL)
+console.log("this is the process env: " + process.env.YELPDATABASEURL) //mongodb://localhost:27017/yelp_camp
 mongoose.connect(process.env.YELPDATABASEURL, {useNewUrlParser: true}, function(err){
     if(err){
         console.log(err);
