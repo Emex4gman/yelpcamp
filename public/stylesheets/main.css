@@ -19,3 +19,11 @@ body{
 #delete-form{
     display: inline;
 }
+
+
+
+@media(max-width: 40rem)
+{ .form{
+    width: 70% !important;
+}
+}
